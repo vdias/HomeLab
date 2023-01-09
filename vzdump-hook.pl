@@ -42,7 +42,7 @@ if ($phase eq 'job-init' ||
   # do what you want
 	
 	if ($phase eq 'job-end') {
-	system ("rclone delete --config /root/.config/rclone/rclone.conf --min-age 5d -v -v ONEDRIVE:/HomeLab/Proxmox-Backup") == 0 ||
+	system ("rclone delete --config /root/.config/rclone/rclone.conf --exclude "OLD" --min-age 5d -v -v ONEDRIVE:/HomeLab/Proxmox-Backup") == 0 ||
 		die "Deleting old backups failed";
 	}
 	
