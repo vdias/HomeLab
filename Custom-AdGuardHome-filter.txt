@@ -1,54 +1,71 @@
-# WhiteList
-@@||smartplugin.youbora.com^
+# Title: Custom AdGuard Home Filter List
+# URL: https://raw.githubusercontent.com/vdias/HomeLab/main/Custom-AdGuardHome-filter.txt
+# Last modified: 23/01/2023
 
-# Blacklist
-||cdpbeacon.lgtvcommon.es^
-||cdpsvc.lgtvcommon.es^
-||homeprv.lgtvcommon.es^
-||nudge.lgtvcommon.es^
-||recommend.lgtvcommon.es^
-||rdl.lgtvcommon.es^
-||lgsmartad.es^
-||lgsmartad.com^
-||recommend.lgtvcommon.com^
-||rdl.lgtvcommon.com^
-||nudge.lgtvcommon.com^
-||homeprv.lgtvcommon.com^
-||cdpsvc.lgtvcommon.com^
-||cdpbeacon.lgtvcommon.com^
-||service.lgtvcommon.es^
-||service.lgtvcommon.com^
-||lgtvonline.lge.com^
-||eic.cdpbeacon.lgtvcommon.com^
-||ad.lgsmartad.com^
-||ibs.lgappstv.com^
-||lgtvsdp.com^
-||aic-ngfts.lge.com^
-||es.ibs.lgappstv.com^
-||es.lgtvsdp.com^
-||ibis.lgappstv.com^
+# ----- Custom Whitelist -----
+
+# [ver.movistarplus.es]
+@@||smartplugin.youbora.com^$important
+
+
+# ----- Custom Blacklist -----
+
+# [SmartTV LG]
 ||ad.lgappstv.com^
-||info.lgsmartad.com^
-||rdx2.lgtvsdp.com^
-||smartshare.lgtvsdp.com^
-||es.rdx2.lgtvsdp.com^
-||es.info.lgsmartad.com^
-||es.ad.lgsmartad.com^
-||ngfts.lge.com^
-||lgad.cjpowercast.com.edgesuite.net^
-||metrics.icloud.com^
-||eic.api.lgtviot.com^
+||ad.lgsmartad.com^
+||aic-ngfts.lge.com^
 ||cdpbeacon.lgtvcommon.com^
+||cdpbeacon.lgtvcommon.es^
 ||cdpsvc.lgtvcommon.com^
+||cdpsvc.lgtvcommon.es^
+||eic.cdpbeacon.lgtvcommon.com^
+||eic.service.lgtvcommon.com^
+||eic.api.lgtviot.com^
+||eic.sports.lgtviot.com^
+||eic.lgtviot.com^
+||es.ad.lgsmartad.com^
+||es.ibs.lgappstv.com^
+||es.info.lgsmartad.com^
+||es.lgtvsdp.com^
+||es.rdx2.lgtvsdp.com^
 ||homeprv.lgtvcommon.com^
-||nudge.lgtvcommon.com^
-||rdl.lgtvcommon.com^
-||recommend.lgtvcommon.com^
+||homeprv.lgtvcommon.es^
+||ibis.lgappstv.com^
+||ibs.lgappstv.com^
+||info.lgsmartad.com^
+||lgad.cjpowercast.com.edgesuite.net^
 ||lgsmartad.com^
+||lgsmartad.es^
+||lgtvonline.lge.com^
+||lgtvsdp.com^
+||ngfts.lge.com^
+||nudge.lgtvcommon.com^
+||nudge.lgtvcommon.es^
+||rdl.lgtvcommon.com^
+||rdl.lgtvcommon.es^
+||rdx2.lgtvsdp.com^
+||recommend.lgtvcommon.com^
+||recommend.lgtvcommon.es^
 ||service.lgtvcommon.com^
+||service.lgtvcommon.es^
+||smartshare.lgtvsdp.com^
+||aic-ngfts.lge.com^
+||aic.cdpbeacon.lgtvcommon.com^
+||bl-server.alphonso.tv^
+||clockskew.alphonso.tv^
+||prov-lg.alphonso.tv^
+||us.ibs.lgappstv.com^
+||us.info.lgsmartad.com^
+||us.rdx2.lgtvsdp.com^
+
+# [Prime Video]
+||device-metrics-us-2.amazon.com^
+
+# [Disney+]
 ||sanalytics.disneyplus.com^
 ||disney.my.sentry.io^
-||tv.ads.spotx.tv^
+
+# [a2z.com]
 ||notify.bugsnag.appstore.a2z.com^
 ||analytics.console.aws.a2z.com^
 ||pr.analytics.console.aws.a2z.com^
@@ -63,27 +80,43 @@
 ||metrics.client-eng.a2z.com^
 ||global.telemetry.insights.video.a2z.com^
 ||us-east-1.telemetry.insights.video.a2z.com^
+
+# [aiv-cdn.net]
 ||pop-iad-2.cf.dash.row.aiv-cdn.net^
 ||s3-iad-2.cf.dash.row.aiv-cdn.net^
 ||s3-iad-ww.cf.videorolls.row.aiv-cdn.net^
 ||s3.ll.videorolls.row.aiv-cdn.net^
+
+# [extend.tv]
 ||extend.tv^
 ||adserver-east.extend.tv^
 ||freewheeleventsbidder-east.extend.tv^
 ||sync.extend.tv^
 ||telariaeventsbidder-east.extend.tv^
+
+# [iris.tv]
 ||iris.tv^
 ||context.iris.tv^
 ||ovp.iris.tv^
+
+# [redfast.com]
 ||redfast.com^
 ||conduit.redfast.com^
+
+# [thetimmedia.site]
 ||thetimmedia.site^
 ||trinity-cdn.thetimmedia.site^
 ||trinity-player.thetimmedia.site^
+
+# [truex.com]
 ||truex.com^
 ||ctv.truex.com^
+
+# [truoptik.com]
 ||truoptik.com^
 ||dmp.truoptik.com^
+
+# [videohub.tv]
 ||videohub.tv^
 ||ads-secure.videohub.tv^
 ||adserver.videohub.tv^
@@ -91,21 +124,37 @@
 ||nginx13.iad1.videohub.tv^
 ||l0-secure.videohub.tv^
 ||tp.videohub.tv^
+
+# [hrzn-nxt.com]
 ||hrzn-nxt.com^
 ||hmi-hershey.hrzn-nxt.com^
+
+# [ifood.tv]
 ||adlog.ifood.tv^
 ||log.ifood.tv^
+
+# [ispot.tv]
 ||ispot.tv^
 ||pi.ispot.tv^
 ||pt.ispot.tv^
+
+# [litix.io]
 ||litix.io^
 ||18lus0524edvcif1pa0hruc0e.litix.io^
+
+# [ravm.tv]
 ||ravm.tv^
 ||display.ravm.tv^
-||hb-t5u9.raps.ravm.tv^
+||hb-t5u9.raps.ravm.tv
+
+# [segmentapis.com]
 ||segmentapis.com^
 ||silver-fir.cd.segmentapis.com^
+
+# [tidaltv.com]
 ||tidaltv.com^
 ||trk.tidaltv.com^
+
+# [videoamp.com]
 ||videoamp.com^
 ||b.videoamp.com^
