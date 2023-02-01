@@ -1,6 +1,6 @@
 # Title: Custom AdGuard Home Filter List
 # URL: https://raw.githubusercontent.com/vdias/HomeLab/main/Custom-AdGuardHome-filter.txt
-# Last modified: 23/01/2023
+# Last modified: 01/02/2023
 
 # ----- Custom Whitelist -----
 
@@ -11,6 +11,7 @@
 # ----- Custom Blacklist -----
 
 # [SmartTV LG]
+||discovery.meethue.com^
 ||ad.lgappstv.com^
 ||ad.lgsmartad.com^
 ||aic-ngfts.lge.com^
