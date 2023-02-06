@@ -7,7 +7,7 @@
 # [ver.movistarplus.es]
 @@||smartplugin.youbora.com^$important
 
-# [LG SmartTV Apps]
+# [LG SmartTV AppStore]
 @@||es.lgtvsdp.com^$important
 @@||es.ibs.lgappstv.com^$important
 
