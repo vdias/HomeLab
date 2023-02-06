@@ -7,6 +7,10 @@
 # [ver.movistarplus.es]
 @@||smartplugin.youbora.com^$important
 
+# [LG SmartTV Apps]
+@@||es.lgtvsdp.com^$important
+@@||es.ibs.lgappstv.com^$important
+
 
 # ----- Custom Blacklist -----
 
@@ -25,9 +29,7 @@
 ||eic.sports.lgtviot.com^
 ||eic.lgtviot.com^
 ||es.ad.lgsmartad.com^
-||es.ibs.lgappstv.com^
 ||es.info.lgsmartad.com^
-||es.lgtvsdp.com^
 ||es.rdx2.lgtvsdp.com^
 ||homeprv.lgtvcommon.com^
 ||homeprv.lgtvcommon.es^
