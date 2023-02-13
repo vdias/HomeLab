@@ -1,0 +1,5 @@
+echo "PermitRootLogin yes" | tee -a /etc/ssh/sshd_config
+systemctl restart sshd
+apt update && apt upgrade -y
+timedatectl set-timezone Europe/Madrid
+exit
