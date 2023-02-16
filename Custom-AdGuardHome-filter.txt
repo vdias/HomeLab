@@ -7,18 +7,14 @@
 # [ver.movistarplus.es]
 @@||smartplugin.youbora.com^$important
 
-# [LG SmartTV AppStore]
-@@||es.lgtvsdp.com^$important
-@@||es.ibs.lgappstv.com^$important
-@@||es.rdx2.lgtvsdp.com^$important
-@@||eic.lgtviot.com^$important
-@@||ngfts.lge.com^$important
-@@||fr.security.lgtvsdp.com^$important
-
 
 # ----- Custom Blacklist -----
 
 # [SmartTV LG]
+||yumenetworks.com^
+||smartshare.lgtvsdp.com^
+||rdx2.lgtvsdp.com^
+||aic-ngfts.lge.com^
 ||discovery.meethue.com^
 ||ad.lgappstv.com^
 ||ad.lgsmartad.com^
@@ -57,10 +53,6 @@
 ||aic.cdpbeacon.lgtvcommon.com^
 ||bl-server.alphonso.tv^
 ||clockskew.alphonso.tv^
-||prov-lg.alphonso.tv^
-||us.ibs.lgappstv.com^
-||us.info.lgsmartad.com^
-||us.rdx2.lgtvsdp.com^
 ||alphonso.tv^
 
 # [Prime Video]
@@ -69,6 +61,10 @@
 # [Disney+]
 ||sanalytics.disneyplus.com^
 ||disney.my.sentry.io^
+
+# [Netflix]
+||ichnaea.netflix.com^
+||customerevents.netflix.com^
 
 # [a2z.com]
 ||notify.bugsnag.appstore.a2z.com^
@@ -163,3 +159,95 @@
 # [videoamp.com]
 ||videoamp.com^
 ||b.videoamp.com^
+
+# [Unsorted]
+||smartclip.com^
+||smartclip.net^
+||2mdn.net^
+||ad.71i.de^
+||adv.ettoday.net^
+||advertising.com^
+||cert-test.sandbox.google.com^
+||database01p.anixe.net^
+||de.ioam.de^$ctag=device_tv
+||drscdn.500px.org^$ctag=device_tv
+||googleads.g.doubleclick.net^
+||nbc-jite.nbcuni.com^
+||redbutton-adproxy-lb-prod.redbutton.de^
+||redbutton-lb-prod.redbutton.de^
+||redbutton.sim-technik.de^
+||script.ioam.de^
+||start.digitaltext.rtl.de^
+||trvdp.com^
+||tv-static.scdn.co^
+||xml.opera.com^$ctag=device_tv
+||api.thetake.com^
+
+# [Philips]
+||legacyportal.nettvservices.com^
+||nettv.corio.com^
+||ad.nettvservices.com^
+
+# [Samsung]
+||abtauthprd.samsungcloudsolution.com^
+||samsungads.com^
+||amauthprd.samsungcloudsolution.com^
+||api-hub.samsungyosemite.com^
+||az43064.vo.msecnd.net^
+||cdn.samsungcloudsolution.net^
+||Coordinator-Production-28516768.us-east-1.elb.amazonaws.com^
+||d179kwmlpc4o47.cloudfront.net^
+||d1jwpcr0q4pcq0.cloudfront.net^
+||d2tnx644ijgq6i.cloudfront.net^
+||d3mjsomixevyw7.cloudfront.net^
+||d37ju0xanoz6gh.cloudfront.net^
+||device-metrics-us.amazon.com^
+||fkp.samsungcloudsolution.
+||game.internetat.tv^
+||gld.samsungosp.com^
+||i-stream.pl^
+||log.internetat.tv^
+||musicid.samsungcloudsolution.com^
+||notice.samsungcloudsolution.com^
+||noticecdn.samsungcloudsolution.com^
+||noticefile.samsungcloudsolution.com^
+||oempprd.samsungcloudsolution.
+||prderrordumphsm.samsungcloudsolution.com^
+||openapi.samsung.com^
+||pavv.co.kr^
+||pipeaota.com^
+||premium-videos.telly.com^
+||prov.samsungcloudsolution.com^
+||rwww.samsungotn.net^
+||samsungacr.com^
+||samsungadhub.com^
+||samsungcloudsolution.com^
+||samsungcloudsolution.net^
+||samsungqbe.com^
+||sas.samsungcloudsolution.com^
+||sca.samsung.com^
+||syncplusconfig.s3.amazonaws.com^
+||us-api.samsungyosemite.com^
+||vd.emp.prd.s3.amazonaws.com^
+||vdterms.samsungcloudsolution.com^
+||samsungelectronics.com^
+||vd.contents.prod.eu.s3.amazonaws.com^
+||data.arqiva.tv^
+||cloud.arqiva.tv^
+||gamespromotion.samsungcloudsolution.com^
+||connecttv.pelmorex.com^
+||adgrx.com^
+
+# [Roku]
+||logs.roku.com^
+||display.ravm.tv^
+||ravm.tv^
+
+# [Xiaomi Mi TV]
+||mitv.tracking.intl.miui.com^
+||tracking.intl.miui.com^
+||sdkconfig.ad.intl.xiaomi.com^
+
+# [Android TV]
+||androidtvchannels-pa.googleapis.com^
+||androidtvwatsonfe-pa.googleapis.com^
