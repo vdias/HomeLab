@@ -1,6 +1,6 @@
 # Title: Custom AdGuard Home Filter List
 # URL: https://raw.githubusercontent.com/vdias/HomeLab/main/Custom-AdGuardHome-filter.txt
-# Last modified: 06/02/2023
+# Last modified: 16/02/2023
 
 # ----- Custom Whitelist -----
 
@@ -10,6 +10,10 @@
 # [LG SmartTV AppStore]
 @@||es.lgtvsdp.com^$important
 @@||es.ibs.lgappstv.com^$important
+@@||es.rdx2.lgtvsdp.com^$important
+@@||eic.lgtviot.com^$important
+@@||ngfts.lge.com^$important
+@@||fr.security.lgtvsdp.com^$important
 
 
 # ----- Custom Blacklist -----
@@ -27,7 +31,6 @@
 ||eic.service.lgtvcommon.com^
 ||eic.api.lgtviot.com^
 ||eic.sports.lgtviot.com^
-||eic.lgtviot.com^
 ||es.ad.lgsmartad.com^
 ||es.info.lgsmartad.com^
 ||es.rdx2.lgtvsdp.com^
@@ -41,12 +44,10 @@
 ||lgsmartad.es^
 ||lgtvonline.lge.com^
 ||lgtvsdp.com^
-||ngfts.lge.com^
 ||nudge.lgtvcommon.com^
 ||nudge.lgtvcommon.es^
 ||rdl.lgtvcommon.com^
 ||rdl.lgtvcommon.es^
-||rdx2.lgtvsdp.com^
 ||recommend.lgtvcommon.com^
 ||recommend.lgtvcommon.es^
 ||service.lgtvcommon.com^
