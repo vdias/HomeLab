@@ -61,6 +61,7 @@
 ||us.ibs.lgappstv.com^
 ||us.info.lgsmartad.com^
 ||us.rdx2.lgtvsdp.com^
+||alphonso.tv^
 
 # [Prime Video]
 ||device-metrics-us-2.amazon.com^
