@@ -1,16 +1,20 @@
 # Title: Custom AdGuard Home Filter List
 # URL: https://raw.githubusercontent.com/vdias/HomeLab/main/Custom-AdGuardHome-filter.txt
-# Last modified: 16/02/2023
+# Last modified: 06/03/2023
 
 # ----- Custom Whitelist -----
 
 # [ver.movistarplus.es]
 @@||smartplugin.youbora.com^$important
 
+# [LG WebOS App Store]
+@@||api.loganalytics.io^$important
+@@||es.lgtvsdp.com^$important
+@@||fr.security.lgtvsdp.com^$important
 
 # ----- Custom Blacklist -----
 
-# [SmartTV LG]
+# [LG WebOS]
 ||yumenetworks.com^
 ||smartshare.lgtvsdp.com^
 ||rdx2.lgtvsdp.com^
